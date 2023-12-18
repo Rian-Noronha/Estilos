@@ -34,4 +34,49 @@
         >
     </TextView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView com Estilo"
+        style="@style/MyStyle"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Botão 1"
+            android:id="@+id/button"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Botão 2"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Botão 3"
+            android:enabled="false"
+            >
+        </Button>
+
+    </LinearLayout>
+
+
+
 </LinearLayout>

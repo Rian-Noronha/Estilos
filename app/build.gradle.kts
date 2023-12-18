@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.rn.estilos"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.rn.estilos"
